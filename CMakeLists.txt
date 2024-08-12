@@ -5,9 +5,9 @@ project(ACELogger)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Define source and include directories
-set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
+# Define source and include directories based on the .amodule file
 set(INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
+set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 # Define source files
 set(ACELOGGER_SOURCES
